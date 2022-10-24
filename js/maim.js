@@ -138,7 +138,7 @@ function dataQoran(e) {
                 document.body.classList.remove("stopscroll");
             };
             loadingFun(true, loading4)
-            fetch(`http://api.alquran.cloud/v1/surah/${i + 1}/ar.alafasy`)
+            fetch(`https://api.alquran.cloud/v1/surah/${i + 1}/ar.alafasy`)
 
                 .then((res) => res.json())
                 .then((data) => {
